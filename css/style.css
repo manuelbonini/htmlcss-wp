@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* Common */
+main {
+    background-color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+ .margin {
+     margin-top: 20px;
+ }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.layover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+ /* Header */
+
+.logo {
+    width: 150px;
+}
+
+/* Menu */
+.menu {
+    list-style-type: none;
+    padding: 10px 0;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+/* Banner */
+.banner {
+    height: 450px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.banner .teaser {
+    position: absolute;
+    left: 35px;
+    bottom: 50px;
+    width: 60%;
+    color: white;
+}
+
+.teaser h1 {
+    font-size: 30px;
+}
+
+.teaser h3 {
+    font-size: 15px;
+}
+
+/* Main */
+.first-row {
+    height: 50px;
+    background-color: lightblue;
+}
+
+.col {
+    float: left;
+}
+
+.col-left, .col-right {
+    height: 400px;
+    width: 20%;
+    background-color: lightblue;
+    margin: 1% 0;
+}
+
+.col-middle {
+    height: 400px;
+    width: 58%;
+    background-color: lightblue;
+    margin: 1% 1%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    background-color: purple;
+    margin-bottom: 20px;
+}
